@@ -1,0 +1,60 @@
+html, body {
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    background-color: #FCF1FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: white;
+    width: 100%;
+    max-width: 30rem;
+    margin: auto;
+    height: auto;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.cardBody{
+    margin: 0rem 2rem 2rem 2rem;
+}
+
+.title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.btnSubmit{
+    padding: 0.6rem 2rem;
+    background-color: rgb(217, 0, 255);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.formGroup{
+    margin-bottom: 1.1rem;
+}
+
+.formInput{
+    padding: 0.6rem 1rem;
+    border: 0.1rem solid;
+    border-color: rgb(217, 0, 255);
+    width: 75%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
